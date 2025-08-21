@@ -81,7 +81,6 @@
                 </div>
                 <button type="submit" name="hitung">Hitung BMI</button>
             </form>
-
             <?php
             if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['hitung'])) {
                 $berat_kg = floatval($_POST['berat']);
@@ -115,4 +114,5 @@
         </div>
     </div>
 </body>
+
 </html>
